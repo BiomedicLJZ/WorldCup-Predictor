@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782105391580,
+  "projectRoot": "D:\\Descargas\\mundial",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml",
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "src\\simulation\\monte_carlo.py",
+      "accessCount": 13,
+      "lastAccessed": 1782178466557,
+      "type": "file"
+    },
+    {
+      "path": "main.py",
+      "accessCount": 8,
+      "lastAccessed": 1782178494825,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\engineering.py",
+      "accessCount": 7,
+      "lastAccessed": 1782177738616,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 6,
+      "lastAccessed": 1782177900601,
+      "type": "directory"
+    },
+    {
+      "path": "config.yaml",
+      "accessCount": 5,
+      "lastAccessed": 1782178476160,
+      "type": "file"
+    },
+    {
+      "path": "agent_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782105847751,
+      "type": "file"
+    },
+    {
+      "path": "xgboost_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106017390,
+      "type": "file"
+    },
+    {
+      "path": "poisson_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106073706,
+      "type": "file"
+    },
+    {
+      "path": "engineering.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106158092,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\agent_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782177024506,
+      "type": "file"
+    },
+    {
+      "path": "src\\simulation",
+      "accessCount": 3,
+      "lastAccessed": 1782177893125,
+      "type": "directory"
+    },
+    {
+      "path": "monte_carlo.py",
+      "accessCount": 2,
+      "lastAccessed": 1782105952303,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\poisson_model.py",
+      "accessCount": 2,
+      "lastAccessed": 1782176835131,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 2,
+      "lastAccessed": 1782178422641,
+      "type": "file"
+    },
+    {
+      "path": "base_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105528100,
+      "type": "file"
+    },
+    {
+      "path": "loader.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105529572,
+      "type": "file"
+    },
+    {
+      "path": "elo.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105531245,
+      "type": "file"
+    },
+    {
+      "path": "metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105545417,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\xgboost_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175994345,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\base_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782176395338,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\BiomedicLJZ\\.claude\\projects\\D--Descargas-mundial\\memory\\project_v2_improvements.md",
+      "accessCount": 1,
+      "lastAccessed": 1782177305403,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 1,
+      "lastAccessed": 1782177882466,
+      "type": "directory"
+    },
+    {
+      "path": "src\\data\\loader.py",
+      "accessCount": 1,
+      "lastAccessed": 1782177897916,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

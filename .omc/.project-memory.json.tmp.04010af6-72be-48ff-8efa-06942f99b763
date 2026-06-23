@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782105391580,
+  "projectRoot": "D:\\Descargas\\mundial",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml",
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "agent_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782105847751,
+      "type": "file"
+    },
+    {
+      "path": "xgboost_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106017390,
+      "type": "file"
+    },
+    {
+      "path": "poisson_model.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106073706,
+      "type": "file"
+    },
+    {
+      "path": "engineering.py",
+      "accessCount": 3,
+      "lastAccessed": 1782106158092,
+      "type": "file"
+    },
+    {
+      "path": "monte_carlo.py",
+      "accessCount": 2,
+      "lastAccessed": 1782105952303,
+      "type": "file"
+    },
+    {
+      "path": "main.py",
+      "accessCount": 2,
+      "lastAccessed": 1782175959498,
+      "type": "file"
+    },
+    {
+      "path": "base_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105528100,
+      "type": "file"
+    },
+    {
+      "path": "loader.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105529572,
+      "type": "file"
+    },
+    {
+      "path": "elo.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105531245,
+      "type": "file"
+    },
+    {
+      "path": "metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1782105545417,
+      "type": "file"
+    },
+    {
+      "path": "config.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1782175960200,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1782175987034,
+      "type": "directory"
+    },
+    {
+      "path": "src\\models\\agent_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175992432,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\xgboost_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175994345,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\poisson_model.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175996001,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\engineering.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175997428,
+      "type": "file"
+    },
+    {
+      "path": "src\\features\\elo.py",
+      "accessCount": 1,
+      "lastAccessed": 1782175998529,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

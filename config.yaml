@@ -1,0 +1,46 @@
+data:
+  raw_dir: "data/raw"
+  start_year: 1990
+  include_friendlies: true
+  force_download: false
+
+elo:
+  k_base: 40
+  home_advantage: 100
+
+features:
+  form_window: 10
+
+xgboost:
+  n_optuna_trials: 50   # was 5 — meaningful HPO requires ≥50 trials
+  n_cv_splits: 5
+
+dixon_coles:
+  xi: 0.0018 # Time decay (0 = no decay, higher = older matches matter less)
+  max_goals: 8
+
+agent:
+  enabled: true # Set true once XGB and DC are trained + you have an LLM API key
+  enable_search: true
+  confidence_threshold: 0.08  # L1 disagreement above which LLM synthesis is invoked
+  llm:
+    # Option 1: OpenAI
+    #model: "gpt-4o-mini"
+    #api_key: "${OPENAI_API_KEY}"
+    #base_url: null
+    # Option 2: NVIDIA NIM (comment out openai above)
+    model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning"
+    api_key: 
+    base_url: "https://integrate.api.nvidia.com/v1"
+
+evaluation:
+  train_cutoff_year: 2022 # Train on <2018, test on 2018 WC
+  # train_cutoff_year: 2022 # Alternative: train on <2022, test on 2022 WC
+
+simulation:
+  n_simulations: 10000
+  fetch_live_results: true  # Auto-refresh WC results from ESPN before each sim run
+
+output:
+  dir: "output"
+  comparison_plot: "output/model_comparison.png"

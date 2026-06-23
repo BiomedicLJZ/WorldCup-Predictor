@@ -1,0 +1,3 @@
+Model,RPS ↓,Log-Loss ↓,Accuracy ↑,Brier (avg) ↓,n
+XGBoost,0.204,1.0329,0.519,0.2021,104
+Dixon-Coles,0.2094,1.0346,0.519,0.2084,104
